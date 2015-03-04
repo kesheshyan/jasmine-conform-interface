@@ -12,7 +12,7 @@ Used [duck typing](http://en.wikipedia.org/wiki/Duck_typing) approach.
     throw Error('AbstractClass#method1 should be override!');
   };
   AbstractClass.prototype.method2 = function () {
-    throw Error('AbstractClass#method1 should be override!');
+    throw Error('AbstractClass#method2 should be override!');
   };
   
   var ConcreteImplementation = function () {};
